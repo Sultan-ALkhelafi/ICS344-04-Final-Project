@@ -1,0 +1,10 @@
+defensive-strategy-phase3/
+├── README.md
+├── jail.local
+├── screenshots/
+│   ├── 1-before-hydra-success.png
+│   ├── 2-jail-config.png
+│   ├── 3-after-hydra-blocked.png
+│   ├── 4-fail2ban-status.png
+│   ├── 5-fail2ban-log-ban.png
+│   └── 6-before-after-table.png

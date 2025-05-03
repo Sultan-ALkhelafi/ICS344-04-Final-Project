@@ -1,0 +1,14 @@
+# simple_script.py
+# Custom Python script to simulate a scan or payload
+
+import os
+
+print("Starting simple custom script...")
+
+# Example: Ping the victim machine
+response = os.system("ping -c 4 192.168.56.103")
+
+if response == 0:
+    print("Victim machine is reachable.")
+else:
+    print("Victim machine is not reachable.")

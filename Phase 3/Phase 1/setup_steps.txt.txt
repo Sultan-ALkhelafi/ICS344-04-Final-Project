@@ -1,0 +1,12 @@
+Setup Steps for ICS344 Phase 1
+
+1. Installed VirtualBox on host machine.
+2. Downloaded Metasploitable3 and Kali Linux virtual machines.
+3. Configured both VMs to use "Host-only Adapter" in VirtualBox:
+   - Kali Linux → Settings → Network → Adapter 1 → "Host-only Adapter"
+   - Metasploitable3 → Same configuration.
+4. Started both VMs.
+5. Verified network setup:
+   - In Kali terminal: `ip a` (example IP: 192.168.56.101)
+   - In Metasploitable3 (CMD): `ipconfig` (example IP: 192.168.56.103)
+6. Ensured both machines could ping each other on the same subnet.

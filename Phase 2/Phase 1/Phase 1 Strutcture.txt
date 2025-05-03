@@ -1,0 +1,9 @@
+ICS344-Project/
+  └── Phase1/
+        ├── setup_steps.txt
+        ├── metasploit_attack.txt
+        ├── custom_script.py
+        ├── screenshot1_virtualbox_network.png
+        ├── screenshot2_kali_ip.png
+        ├── screenshot3_attack_success.png
+        └── README.txt

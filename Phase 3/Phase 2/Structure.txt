@@ -1,0 +1,8 @@
+ICS344-Project/
+  └── Phase2/
+        ├── kali_attack.log
+        ├── victim_log.txt
+        ├── screenshot1_splunk_start.png
+        ├── screenshot2_logs_uploaded.png
+        ├── screenshot3_dashboard.png
+        └── README.txt
